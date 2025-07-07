@@ -1,0 +1,26 @@
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* fundo cinza claro */
+    color: #333;              /* texto escuro */
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    background-color: #ffffff;  /* fundo branco */
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;         /* cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* sombra suave */
+    max-width: 600px;           /* largura máxima */
+}
+
+h1 {
+    color: #2c3e50;             /* azul escuro */
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}

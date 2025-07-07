@@ -1,0 +1,74 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background-color: #e9f0f7; /* fundo azul clarinho, mais moderno */
+    color: #333;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #cbd5e1; /* borda mais suave */
+    border-radius: 8px; /* cantos mais arredondados */
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* sombra leve para profundidade */
+}
+
+h1 {
+    text-align: center;
+    color: #1f2937; /* cinza escuro, moderno */
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #374151; /* cinza médio */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #2563eb; /* azul vibrante ao focar */
+    outline: none;
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.5);
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+    font-family: inherit;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #2563eb; /* azul moderno */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1e40af; /* azul mais escuro ao passar o mouse */
+}
